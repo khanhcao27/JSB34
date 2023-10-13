@@ -1,0 +1,93 @@
+.bigger {
+  /* width: 600px; */
+  height: 5000px;
+  background-color: rgb(195, 156, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.container {
+  width: 500px;
+  height: 400px;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+
+.box1 {
+  position: absolute;
+  background-color: rebeccapurple;
+}
+
+
+.box2 {
+  background-color: rgb(77, 130, 211);
+  position: absolute;
+  right: 0;
+}
+
+
+.box3 {
+  background-color: rgb(51, 153, 114);
+  position: absolute;
+  bottom: 0;
+}
+
+.box4 {
+  background-color: rgb(0, 221, 136);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box5 {
+  background-color: dimgray;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.mess_container {
+  width: 55px;
+  height: 55px;
+  background-color: #007aff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+
+.mess_container:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.fa-comment-dots {
+  font-size: 30px;
+  color: white;
+}
+
+.b {
+  border-radius: 2%;
+  right: 65px;
+  bottom: 130px;
+  display: flex;
+  position: fixed;
+  width: 300px;
+  height: 350px;
+  background-color: #007aff;
+}

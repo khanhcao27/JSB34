@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .item {
+    background-color: red;
+    width: 100px;
+    text-align: center;
+  }
+  
+  
+  .show_dropdown {
+    height: 0px;
+  }
+  
+  
+  .item:hover ~ .show_dropdown {
+    height: auto;
+  }
+  
+  
+  .show_dropdown:hover {
+    display: block;
+  }
+  
+  
+  /* contact_container */
+  .contact_container {
+    display: flex;
+    width: 50%;
+    /* background-color: rgb(169, 136, 93); */
+    margin: 30px auto;
+  }
+  
+  
+  .container {
+    width: 350px;
+  }
+  
+  
+  .line {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  .line input {
+    outline: none;
+    /* border-style: none; */
+  }
+  
+  
+  .line1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  
+  .line1 input {
+    width: 48%;
+    padding: 10px;
+  }
+  
+  
+  .line2 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .line3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .line3 button {
+    padding: 8px;
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .contact_details {
+    width: 300px;
+    /* background-color: aquamarine; */
+  }
+  
+  
+  .icon_container {
+    width: 30px;
+    display: inline-block;
+  }
+  
+  
+  .contact_details div {
+    margin-bottom: 5px;
+  }
+  
+  .icons {
+    width: 10%;
+    margin: 5px auto;
+  }
+  .fa-brands:hover {
+    opacity: 0.7;
+  }
+  .background {
+    z-index: 100;
+    background-size: cover;
+  }
+  .underline {
+    color: rgb(118, 118, 118);
+  }

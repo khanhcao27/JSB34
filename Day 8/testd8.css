@@ -1,0 +1,541 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(153, 148, 236);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.item_container {
+    display: flex;
+}
+
+.item_container .item {
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.account {
+    margin-left: 953px;
+}
+
+.item_container .item:hover {
+    background-color: gainsboro;
+    color: black;
+    cursor: pointer;
+}
+
+.logo1 {
+    width: 70px;
+    height: 42px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    background-color: #091e3d;
+}
+
+.background {
+    position: absolute;
+    /* right: 0;
+    z-index: 1; */
+    opacity: 80%;
+    width: 100%;
+}
+
+.nameback {
+    width: 100%;
+}
+
+.about {
+    z-index: 2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 46px;
+}
+
+.school {
+    font-size: 60px;
+    /* background-color: blanchedalmond; */
+    /* border: black; */
+    /* border-style: groove; */
+    color: white;
+    margin-left: 30px;
+    z-index: 3;
+    position: relative;
+}
+
+.name1 {
+    margin-top: 250px;
+}
+
+.name2 {
+    color: yellow;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.klenh {
+    font-size: 40px;
+}
+
+.intro2 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/366706610_204180962633283_8895789584949629058_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_ohc=u-X83hqnfk0AX_PQBwk&_nc_ht=scontent.fhan14-4.fna&oh=00_AfAgqrPNoIMWrs-AmZYVp6mrB7YkMuKYRz3r_u0bNhnNdw&oe=650EC054);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.thongke {
+    width: 1190px;
+    height: 583px;
+    /* background-color:; */
+    position: relative;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thongtin {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.tt1 {
+    position: absolute;
+    width: 595px;
+    height: 583px;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2022/04/background-1-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+    border-radius: 10px;
+}
+
+.tt1_1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 416px;
+    height: 241.5px;
+    background-color: #083474;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
+}
+
+.tt2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 297.5px;
+    height: 291.5px;
+    right: 25%;
+    background-color: #083474;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+}
+
+.tt2_2 {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tt3 {
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2022/03/co-so-4-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 297.5px;
+    height: 291.5px;
+    right: 0;
+}
+
+.tt3_3 {
+    text-align: center;
+}
+
+.sluonghs {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tt4 {
+    background-image: url(https://1.bp.blogspot.com/-2s2ld_U9q1Q/XtiZvH4_o6I/AAAAAAAAoCo/SQwgBBncnIA2S9zpDuJcgjY05e8nIo3rwCLcBGAsYHQ/s1600/Hinh-anh-quyen-sach%2B%25282%2529.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 297.5px;
+    height: 291.5px;
+    right: 25%;
+    bottom: 0;
+    background-color: rgb(225, 162, 85);
+}
+
+.tt4_4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.tt5 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 297.5px;
+    height: 291.5px;
+    right: 0;
+    bottom: 0;
+    background-color: #083474;
+}
+
+.icon2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+}
+
+.tt5_5 {
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.tuyensinh {
+    width: 100%;
+    height: 578px;
+    display: block;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2022/04/background-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.line {
+    padding-left: 0;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line3 button{
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #878787;
+}
+
+.line3 button:hover{
+    background-color: rgb(116, 116, 116);
+    color: white;
+    cursor: pointer;
+}
+
+.ttgiaoduc {
+    display: flex;
+    width: 100%;
+    height: 689px;
+    /* background-color: darkorchid; */
+}
+
+.anhnen {
+    display: flex;
+    position: relative;
+    width: 50%;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2022/03/background-left-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    position: relative;
+    width: 50%;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2022/03/background-right-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text_container {
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-right: 163px;
+    padding-bottom: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.text2 {
+    font-size: 48px;
+    color: #e60e25;
+    background: #fffcf1;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 76px;
+    width: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 19px;
+    margin-bottom: 47px;
+}
+
+.text3 {
+    font-size: 40px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.text4 {
+    margin-bottom: 13px;
+}
+
+.text5 {
+    margin-bottom: 13px;
+}
+
+.bangtin {
+    display: flex;
+    justify-content: center;
+    height: 1150px;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(https://ngs.edu.vn/wp-content/themes/dungvu/assets/images/home-page/section-5/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bangtin_container {
+    width: 1177.5px;
+    height: max-content;
+    /* background-color: #e60e25; */
+}
+
+.headbangtin {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0044a6;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.first_post {
+    position: absolute;
+    width: 1177.5px;
+    height: 370px;
+    /* background-color: #083474; */
+}
+
+.post_pic1 {
+    position: absolute;
+    width: 558.75px;
+    height: 370px;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2023/08/z4607866967543_99dd4f5eb6397e3b7cb34ad8ac0e36ec-450x267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post_text1 {
+    position: absolute;
+    width: 558.75px;
+    height: 341px;
+    right: 0;
+    background-color: #083474;
+    width: 46.7%;
+    padding-top: 29px;
+    padding-left: 45px;
+    padding-right: 24px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text_line1 {
+    font-size: 35px;
+}
+
+.text_line2 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.second_post {
+    display: flex;
+    margin-top: 450px;
+}
+
+.post2 {
+    display: inline-block;
+    width: 357.5px;
+    height: 577px;
+    background-color: #2e5895;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post_pic2 {
+    width: 357.5px;
+    height: 220px;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2023/08/z4605763451653_f6b34c51d66a6d76e43e93a55016d826-450x267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post_text2 {
+    padding: 15px 30px;
+}
+
+.text2_line1 {
+    font-size: 24px;
+}
+
+.text2_line2 {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.post3 {
+    display: inline-block;
+    margin-left: 52px;
+    margin-right: 52px;
+    width: 357.5px;
+    height: 577px;
+    background-color: #2e5895;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post_pic3 {
+    width: 357.5px;
+    height: 220px;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2023/09/z4686316106904_82bade231d69d9ac6e3bcd93efb6b96f-450x267.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post_text3 {
+    padding: 15px 30px;
+}
+
+.text3_line1 {
+    font-size: 24px;
+}
+
+.text3_line2 {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+
+.post4 {
+    display: inline-block;
+    width: 357.5px;
+    height: 577px;
+    background-color: #2e5895;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post_pic4 {
+    width: 357.5px;
+    height: 220px;
+    background-image: url(https://ngs.edu.vn/wp-content/uploads/2023/09/MAU-VINH-DANH-Bai-dang-Facebook-Ngang-Hinh-nen-may-tinh-Bai-dang-Facebook-Ngang-450x267.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post_text4 {
+    padding: 15px 30px;
+}
+
+.text4_line1 {
+    font-size: 24px;
+}
+
+.text4_line2 {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+  
+  @keyframes scroll-up {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
